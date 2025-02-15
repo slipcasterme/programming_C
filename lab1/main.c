@@ -12,9 +12,16 @@ int main(int argc, char *argv[]) {
 	double a, b, c;
 	double x1, x2, d;
 	
-	a = 1.2;
-	b = 10.5;
-	c = 3.3;
+//	a = 1.2;
+//	b = 10.5;
+//	c = 3.3;
+	
+	printf("VVEDITE a: \n");
+	scanf("%lf", &a);
+	printf("VVEDITE b: \n");
+	scanf("%lf", &b);
+	printf("VVEDITE c: \n");
+	scanf("%lf", &c);
 	
 	d = pow(b,2) - 4*a*c;
 	printf("d = %lf \n", d);
